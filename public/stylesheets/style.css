@@ -1,0 +1,1720 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#main{
+  overflow-x: hidden;
+}
+
+
+.menu {
+  display: none !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.menu .line {
+  /* margin-top: .4vmax;
+  margin-bottom: .4vmax; */
+  height: 3px;
+  width: 27px;
+  background-color: #fff;
+}
+
+
+.overlay {
+  display: none !important;
+  transform: translateY(-100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+  width: 100vw;
+  position: absolute;
+  background-color: black;
+}
+
+.cross {
+  margin-left: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+}
+
+.overlay-nav {
+  height: 100vh;
+  width: 100vw;
+  margin-top: 2vmax;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.overlay-nav a {
+  font: 700 1.3rem "roboto";
+  text-decoration: none;
+  margin-bottom: 8vmax;
+  color: #fff;
+}
+
+.roaming{
+  border: none;
+  background: none;
+  font: 700 1.3rem "roboto";
+  text-decoration: none;
+  /* margin-bottom: 8vmax; */
+  color: #fff;
+}
+
+
+/* -------------------------------------------------PAGE1-CSS----------------------------------------------- */
+
+#page1 {
+  height: 140vh;
+  width: 100vw;
+  background-image: url(https://2022.demuxed.com/assets/images/hero3.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 70px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+
+}
+
+nav ul a {
+  text-decoration: none;
+  margin: 0 1.5vmax;
+  color: #fff;
+  cursor: pointer;
+  font: 900 1.1rem "gilroy";
+}
+
+nav ul a:hover {
+  color: #000;
+}
+
+nav ul button {
+  /* padding: .8vmax 1vmax ; */
+  height: 42px;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1rem;
+
+}
+
+nav ul button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+
+.page1-main {
+  padding-left: 5vw;
+  margin-top: 18vh;
+  height: 90vh;
+  width: 55vw;
+  /* background-color: red; */
+}
+
+.page1-main h1 {
+  font: 900 4.8rem "roboto";
+  /* font-family: druk heavy; */
+}
+
+.page1-main p {
+  width: 60%;
+  font: 500 2.5rem "gilroy";
+  margin-top: 1vmax;
+  color: #fff;
+}
+
+.king {
+  margin-top: 2vmax;
+  display: flex;
+  flex-direction: column;
+}
+
+.king button {
+  height: 70px;
+  width: 240px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font: 900 2rem "mukta";
+  margin-bottom: 1vmax;
+  background-color: black;
+  border-radius: 35px;
+}
+
+.king button:hover {
+  color: #000;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+/* ------------------------------------------------PAGE2-CSS---------------------------------------------------- */
+
+#page2 {
+  height: 130vh;
+  width: 100vw;
+  background-color: #78A0D9;
+}
+
+.page2-main {
+  padding-top: 5vmax;
+  height: 130vh;
+  width: 90vw;
+  display: flex;
+  margin: auto;
+  /* background-color: red; */
+}
+
+.page2-left {
+  padding-top: 5vmax;
+  /* margin-top: 5vmax; */
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2vmax;
+  width: 45vw;
+  height: 110vh;
+  background-image: url(https://2022.demuxed.com/assets/images/pool.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page2-right {
+  padding-left: 5vw;
+  width: 45vw;
+  height: 110vh;
+  /* background-color: blue; */
+}
+
+.page2-right h1 {
+  margin-bottom: 1vmax;
+  font: 900 4rem "mukta";
+}
+
+.page2-right .box {
+  display: flex;
+}
+
+.page2-right .box img {
+  margin-top: .5vmax;
+}
+
+.page2-right .box h2 {
+  font: 900 1.9rem "mukta";
+  margin-left: 1vmax;
+}
+
+.page2-right p {
+  margin-bottom: 1.5vmax;
+  margin-left: 4.3vmax;
+  font: 100 1.3rem "gilroy";
+}
+
+
+.conduct{
+  font-weight: 200;
+  /* -webkit-text-stroke-color: #A1C8EF;
+  -webkit-text-stroke-width: px ; */
+  color: #78A0D9;
+  padding: 0 .5vmax;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+/* ----------------------------------------PAGE3-CSS----------------------------------------------- */
+
+#page3 {
+  overflow: hidden;
+  height: 80vh;
+  width: 100vw;
+  background-color: #78A0D9;
+}
+
+.page3-main {
+  position: relative;
+  height: 60vh;
+  overflow-x: scroll;
+  width: 590vw;
+  cursor: pointer;
+}
+
+
+.page3-main::-webkit-scrollbar {
+  display: none;
+}
+
+.page3-main {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+}
+
+/* ----------------------------------------PAGE4-CSS--------------------------------------------------- */
+
+#page4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+  background-color: #78A0D9;
+}
+
+.page4-main {
+  width: 50vw;
+  height: 90vh;
+}
+
+.page4-main h1 {
+  font: 900 5rem "mukta";
+}
+
+.page4-main a {
+  padding: 0 2px;
+  text-decoration: none;
+  font: 900 1.2rem "gilroy";
+  width: 90px;
+  background-color: #fff;
+  /* -webkit-text-stroke: 1px  #78A0D9; */
+  /* color: #fff; */
+  color: #78A0D9;
+  margin-bottom: .5vmax;
+}
+
+.page4-main h3 {
+  margin-top: .5vmax;
+  font: 900 1.2rem "roboto";
+  margin-bottom: 1vmax;
+}
+
+.page4-main p {
+  width: 45vw;
+  font: 300 1.5rem "roboto";
+  margin-bottom: 3vmax;
+}
+
+/* --------------------------------------------#PAGE5-CSS------------------------------ */
+
+#page5 {
+  height: 660vh;
+  width: 100vw;
+  background-color: #78A0D9;
+}
+
+.page5-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 45vh;
+  width: 100vw;
+  /* background-color: blue; */
+}
+
+.page5-child-image {
+  cursor: pointer;
+  height: 300px;
+  width: 550px;
+  background-image: url(https://2022.demuxed.com/assets/images/speaker.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page5-child h1 {
+  font: 900 5rem "mukta";
+}
+
+.page5-main {
+  height: 600vh;
+  width: 85vw;
+  margin: auto;
+  /* background-color: red; */
+
+}
+
+.page5-main-box {
+  height: 60vh;
+  width: 85vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: green; */
+}
+
+.page5-box-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 57vh;
+  width: 20vw;
+  background-color: #fff;
+  margin-right: 1.5vmax;
+  border-radius: 20px;
+}
+
+
+.box-one-image {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/alex-converse.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image1 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/alex-zambelli.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image2 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/ali-c-begen.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image3 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/amy-rice.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-one-image4 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/christian-feldmann.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image5 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/christoph-guttandin.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+.box-one-image6 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/cise-midoglu.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.box-one-image7 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/dan-jenkins.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image8 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/dan-sparacio.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image9 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/derek-buitenhuis.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image10 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/dylan-armajani.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image11 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/emil-santurio.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+.box-one-image12 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/emmanuel-papirakis.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image13 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/guillaume-bichot.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.box-one-image14 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/hadi-amirpour.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image15 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/hojatollah-yeganeh.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.box-one-image16 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/jean-baptiste-kempf.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image17 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/joey-parrish.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image18 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/kieran-kunhya.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image19 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/leon-lyakovetsky.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.box-one-image20 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/lionel-bringuier.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image21 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/marc-h%C3%B6ppner.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image22 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/mario-guggenberger.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image23 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/mattias-buelens.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.box-one-image24 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/nicolas-levy.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.box-one-image25 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/nidhi-kulkarni.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.box-one-image26 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/peter-howard.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image27 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/peter-tseng.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image28 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/qingyuan-liu.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image29 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/steve-robertson.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image30 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/thomas-davies.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.box-one-image31 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/tom-howe.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.box-one-image32 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/vanessa-pyne.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image33 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/vittorio-giovara.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image34 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/walker-griggs.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.box-one-image35 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/will-law.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image36 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/yuriy-reznik.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box-one-image37 {
+  border-radius: 45px;
+  height: 150px;
+  width: 100px;
+  background-color: #78A0D9;
+  background-image: url(https://demuxed-speakers-2022.imgix.net/zoe-liu.jpg?w=170&h=240&fit=facearea&facepad=3&auto=format,compress&q=70);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.page5-box-one h1 {
+  /* margin: 1vmax 0; */
+  margin-top: 1vmax;
+  font: 600 1.5rem "roboto";
+}
+
+
+.page5-box-one p {
+  margin-bottom: 1.8vmax;
+  margin-top: .5vmax;
+  font: 400 1.3rem "roboto";
+}
+
+
+.page5-box-one button {
+  /* margin-bottom: 1.5vmax;
+  margin-top: .5vmax; */
+  font: 600 1rem "roboto";
+  height: 45px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px rgb(0, 0, 0, 0.4);
+  width: 170px;
+}
+
+
+.page5-box-one button:hover {
+  box-shadow: 2px 2px 20px rgb(0, 0, 0, 0.4);
+}
+
+
+/* -------------------------------------PAGE6-CSS---------------------------------- */
+
+#page6 {
+  height: 700vh;
+  width: 100vw;
+  background-color: #78A0D9;
+}
+
+.page6-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100vw;
+  /* background-color: blueviolet; */
+}
+
+.page6-child-image {
+  height: 150px;
+  /* background-color: green; */
+  width: 400px;
+  background-image: url(https://2022.demuxed.com/assets/images/mouse.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page6-child h1 {
+  font: 900 4.5rem "mukta";
+}
+
+.page6-button button.botn {
+  margin-right: 1vmax;
+  background-color: #fff;
+  color: #4288eb;
+}
+
+.page6-button .botny:hover {
+  background-color: #fff;
+  color: #4288eb;
+}
+
+.page6-button button {
+  height: 60px;
+  width: 320px;
+  color: #fff;
+  background-color: #4288eb;
+  border-radius: 30px;
+  border: none;
+  font: 900 1.3rem "roboto";
+}
+
+.page6-button button span {
+  color: black;
+}
+
+
+.page6-main {
+  border-radius: 20px;
+  height: 261vh;
+  width: 70vw;
+  margin: auto;
+  /* background-color: green; */
+}
+
+.page6-main-box {
+  height: 50vh;
+  width: 70vw;
+  display: flex;
+  /* background-color: aqua; */
+}
+
+.page6-main-box-left {
+  padding-left: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top-left-radius: 25px;
+  border-bottom: 2px solid #DDE7F4;
+  border-right: 2px solid #DDE7F4;
+  height: 50vh;
+  width: 35vw;
+  background-color: #fff;
+}
+
+.page6-main-box-left h3 {
+  margin-top: 1vmax;
+  margin-bottom: 2vmax;
+  font: 900 1.5rem "roboto";
+}
+
+/* .page6-main-box-left img{
+    margin-bottom: 2vmax;
+  } */
+
+.page6-left-button {
+  padding-left: .5vmax;
+  height: 50px;
+  width: 380px;
+  background-color: #DDE7F4;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.page6-left-button h1 {
+  margin-left: 1vmax;
+  font: 500 1.5rem "roboto";
+}
+
+.page6-main-box-right {
+  padding-left: 3vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top-right-radius: 25px;
+  border-bottom: 2px solid #DDE7F4;
+  height: 50vh;
+  width: 35vw;
+  background-color: #fff;
+}
+
+.page6-main-box-right h3 {
+  margin-top: .5vmax;
+  font: 900 1.5rem "roboto";
+
+}
+
+.page6-main-box-right .page6-left-button {
+  width: 390px;
+  background-color: #fff;
+  border: 2px solid #DDE7F4;
+  padding-right: .5vmax;
+}
+
+.page6-right-image {
+  display: flex;
+  align-items: center;
+}
+
+.page6-right-image {
+  font: 500 1.3rem "roboto";
+
+}
+
+.page6-right-image img {
+  margin-top: 1vmax;
+  border-radius: 35px;
+  margin-right: 1vmax;
+}
+
+
+.page6-main-box1 {
+  height: 50vh;
+  width: 70vw;
+  display: flex;
+  /* background-color: aqua; */
+}
+
+.page6-main-box1 .page6-main-box-left {
+  border-radius: 0px;
+}
+
+.page6-main-box1 .page6-main-box-right {
+  border-radius: 0px;
+}
+
+.page6-main-box1 .page6-left-button {
+  background-color: #fff;
+  border: 2px solid #DDE7F4;
+  width: 390px;
+}
+
+.page6-right-image h3 span {
+  margin-top: 1vmax;
+  font: 300 1.3rem "roboto";
+}
+
+.page6-right-image h3 {
+  font: 900 1.5rem "roboto";
+}
+
+
+
+
+
+.page6-main-box2 {
+  height: 50vh;
+  width: 70vw;
+  display: flex;
+  /* background-color: aqua; */
+}
+
+
+.page6-main-box2 .page6-main-box-left {
+  border-radius: 0px;
+
+  border-left: 2px solid #DDE7F4;
+  border-right: 0px;
+}
+
+
+.page6-main-box2 .page6-main-box-right {
+  padding-right: 2vmax;
+  border-radius: 0px;
+}
+
+.page6-main-box2 .page6-left-button {
+  background-color: #fff;
+  border: 2px solid #DDE7F4;
+  width: 390px;
+}
+
+.page6-main-box3 {
+  height: 60vh;
+  width: 70vw;
+  display: flex;
+  /* background-color: aqua; */
+}
+
+.page6-main-box3 .page6-main-box-left {
+  height: 60vh;
+  border-radius: 0px;
+}
+
+.page6-main-box3 .page6-main-box-right {
+  height: 60vh;
+  border-radius: 0px;
+}
+
+.page6-main-box4 {
+  /* background-color: blueviolet; */
+  height: 60vh;
+  width: 70vw;
+  display: flex;
+  /* background-color: aqua; */
+}
+
+
+.page6-main-box4 .page6-main-box-left {
+  height: 60vh;
+  border-radius: 0px;
+  border-left: 2px solid #DDE7F4;
+  border-right: 0px;
+}
+
+.page6-main-box4 .page6-main-box-right {
+  padding-right: 0;
+  height: 60vh;
+  border-radius: 0px;
+}
+
+.page6-main-box5 {
+  height: 50vh;
+  width: 70vw;
+  display: flex;
+  background-color: blueviolet;
+}
+
+
+
+.page6-main-box5 .page6-main-box-left {
+  height: 50vh;
+  border-radius: 0px;
+  border-right: 2px solid #DDE7F4;
+  border-right: 0px;
+}
+
+.page6-main-box5 .page6-main-box-right {
+  padding-right: 0;
+  height: 50vh;
+  border-left: 2px solid #DDE7F4;
+  border-radius: 0px;
+}
+
+
+.page6-main-box6 {
+  height: 50vh;
+  width: 70vw;
+  display: flex;
+
+  /* background-color: aqua; */
+}
+
+.page6-main-box6 .page6-main-box-left {
+  padding-right: 0;
+  height: 50vh;
+  border-top-left-radius: 0px;
+  border-left: 2px solid #DDE7F4;
+  border-bottom-left-radius: 25px;
+}
+
+
+.righting {
+  /* border-radius: 0px; */
+  /* padding-right: 0; */
+  height: 50vh;
+  border-left: 2px solid #DDE7F4;
+  border-top-right-radius: 0px;
+  border-left: 0;
+  border-bottom-right-radius: 20px;
+}
+
+#page7 {
+  /* overflow: hidden; */
+  height: 130vh;
+  width: 100vw;
+  background-color: #78A0D9;
+}
+
+.page7-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+  width: 100vw;
+  /* background-color: green; */
+}
+
+.page7-child-image {
+  width: 600px;
+  height: 400px;
+  background-image: url(https://2022.demuxed.com/assets/images/cog-ff.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.page7-main {
+  overflow-x: scroll;
+
+  position: relative;
+  height: 50vh;
+  width: 250vw;
+  /* background-color: yellow; */
+}
+
+.page7-main {
+  position: absolute;
+  height: 60%;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  /* background-color: yellow; */
+}
+
+.page7-main::-webkit-scrollbar {
+  display: none;
+}
+
+#page8 {
+  height: 110vh;
+  width: 100vw;
+  background-color: #78A0D9;
+}
+
+.page8-main {
+  height: 100vh;
+  width: 90vw;
+  margin: auto;
+  /* background-color: green; */
+  display: flex;
+}
+
+.page8-left {
+  height: 100vh;
+  width: 45vw;
+  /* background-color: aqua; */
+}
+
+.page8-left h1 {
+  margin-top: 1vmax;
+  margin-bottom: 2vmax;
+  font: 900 5rem "roboto";
+}
+
+.page8-left p {
+  font: 300 1.5rem "roboto";
+  margin-bottom: 2.5vmax;
+}
+
+
+.page8-right {
+  padding-top: 2vmax;
+  height: 100vh;
+  width: 45vw;
+  /* background-color: yellow; */
+}
+
+.page8-right-image {
+  height: 90vh;
+  width: 45vw;
+  background-image: url(https://2022.demuxed.com/assets/images/chopper.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#page9 {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  width: 100vw;
+  background-color: #78A0D9;
+}
+
+.page9-main {
+  position: relative;
+  height: 70vh;
+  width: 250vw;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.page9-main::-webkit-scrollbar {
+  display: none;
+}
+
+.page9-main {
+  position: absolute;
+  height: 70%;
+  width: 100%;
+}
+
+.page9-child {
+  display: flex;
+  justify-content: flex-end;
+  height: 70vh;
+  width: 100vw;
+  background-color: #78A0D9;
+}
+
+.page9-child-image {
+  height: 60vh;
+  width: 60vw;
+  background-image: url(https://2022.demuxed.com/assets/images/play-next-expand.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#page10 {
+  height: 253vh;
+  width: 100vw;
+  background-color: #78A0D9;
+}
+
+.page10-main {
+  margin: auto;
+  height: 253vh;
+  width: 90vw;
+  /* background-color: green; */
+}
+
+.page10-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  width: 90vw;
+  /* background-color: yellow; */
+}
+
+.page10-child h1 {
+  font: 900 5.5rem "roboto";
+  margin-bottom: 11vh;
+}
+
+.page10-child button {
+  height: 60px;
+  margin: 1vmax 0;
+  font: 700 1.5rem "roboto";
+  width: 320px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.page10-child button span {
+  color: #1b66cf;
+}
+
+.page10-child-image {
+  position: relative;
+  background-color: #fff;
+  height: 44vh;
+  width: 27vw;
+  border-radius: 30px;
+}
+
+.page10-child-image img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.page10-child1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50vh;
+  width: 90vw;
+  /* background-color: blue; */
+}
+
+.page10-child1 button {
+  margin-top: 1vmax;
+  height: 50px;
+  /* margin: 1vmax 0; */
+  font: 900 1.2rem "roboto";
+  width: 230px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.page10-child1 button span {
+  color: #1b66cf;
+}
+
+.page10-child-main {
+  height: 35vh;
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: grey; */
+  /* flex-direction: column; */
+}
+
+.page10-child-image1 {
+  /* margin-right: 7vw; */
+  position: relative;
+  height: 30vh;
+  width: 21vw;
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+.page10-child-image1 img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.page10-child2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 70vh;
+  width: 90vw;
+  /* background-color: aqua; */
+}
+
+.page10-child2-main {
+  height: 60vh;
+  width: 90vw;
+  display: flex;
+  /* background-color: blueviolet; */
+}
+
+.page10-child2 button {
+  /* margin-top: 1vmax; */
+  height: 50px;
+  /* margin: 1vmax 0; */
+  font: 900 1.2rem "roboto";
+  width: 230px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.page10-child2 button span {
+  color: #1b66cf;
+}
+
+.page10-chid2-left {
+  padding: 0 2vmax;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 65vh;
+  width: 45vw;
+  /* background-color: chocolate; */
+}
+
+.page10-chid2-left-image {
+  /* margin-l: 5vw; */
+  border-radius: 25px;
+  position: relative;
+  background-color: #fff;
+  height: 27vh;
+  width: 18vw;
+}
+
+.page10-chid2-left-image img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.page10-chid2-left-image1 {
+  margin-left: 12vw;
+  border-radius: 25px;
+  position: relative;
+  background-color: #fff;
+  height: 27vh;
+  width: 18vw;
+}
+
+.page10-chid2-left-image1 img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.page10-chid2-right {
+  padding: 0 2vmax;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 65vh;
+  width: 45vw;
+  /* background-color: chocolate; */
+
+}
+
+.page10-child3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 42vh;
+  width: 90vw;
+  /* background-color: aqua; */
+}
+
+.page10-child3 button {
+  margin-top: 3vmax;
+  margin-bottom: 1vmax;
+  height: 50px;
+  /* margin: 1vmax 0; */
+  font: 900 1.2rem "roboto";
+  width: 230px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.page10-child3 button span {
+  color: #1b66cf;
+}
+
+.page10-child3-main {
+  display: flex;
+  justify-content: space-between;
+  height: 30vh;
+  width: 90vw;
+  /* background-color: burlywood; */
+}
+
+.page10-child3-main-image {
+  height: 22vh;
+  width: 14vw;
+  position: relative;
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+
+.page10-child3-main-image img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+#page11 {
+  overflow-x: hidden;
+  height: 160vh;
+  width: 100vw;
+  background-color: #A1C8EF;
+}
+
+.page11-footer-image {
+  height: 120vh;
+  width: 100vw;
+  background-image: url(https://2022.demuxed.com/assets/images/footer-img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page11-footer {
+  display: flex;
+  height: 40vh;
+  width: 90vw;
+  padding-top: 3vmax;
+  margin: auto;
+}
+
+.page11-image {
+  margin-left: 1vmax;
+  height: 15vh;
+  width: 28vw;
+}
+
+.page11-image .nerds {
+  margin-top: .5vmax;
+  margin-bottom: 2em;
+  font: 300 1.4rem "roboto";
+}
+
+.page11-image img:hover {
+  opacity: 0.5;
+
+}
+
+.page11-contact {
+  margin-left: 2vmax;
+}
+
+
+.page11-contact h2 {
+  margin-bottom: .5vmax;
+  font: 900 1.4rem "roboto";
+  color: #fff;
+}
+
+.page11-contact a {
+  font: 400 1.2rem "roboto";
+  text-decoration: none;
+  color: #000;
+}
+
+
+.page11-contact a:hover {
+  color: #fff;
+}
+
+.page11-staff {
+  margin-left: 10vw;
+  width: 23vw;
+  height: 15vh;
+}
+
+
+.page11-staff h2 {
+  margin-bottom: .5vmax;
+  font: 900 1.4rem "roboto";
+  color: #fff;
+}
+
+
+.page11-staff a {
+  font: 400 1.2rem "roboto";
+  text-decoration: none;
+  color: #000;
+}
+
+
+.page11-staff a:hover {
+  color: #fff;
+}
+
+.page11-logo {
+  margin-top: 1vmax;
+}
+
+
+.page11-logo img {
+  margin-right: 1vmax;
+}
+
+
+.page11-logo img:hover {
+  opacity: 0.5;
+}
+
+.warner{
+  /* position: fixed;
+  top: 450%; */
+  /* overflow: hidden; */
+  margin-top: 4vh;
+  height: 95vh;
+  width: 55vw;
+  display: none;
+  /* display: none; */
+  /* display: in; */
+  position: absolute;
+  background-color: red;
+  
+}

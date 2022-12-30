@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    height: 85vh;
+    width: 100vw;
+    /* background-color:#EFEAF; */
+}
+
+.container-image {
+    height: 80vh;
+    width: 100vw;
+    background-image: url(https://do3z7e6uuakno.cloudfront.net/uploads/event/banner/1122048/815c0f2c5f46040c50302363dc278b1e.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-1 {
+    height: 180vh;
+    width: 100vw;
+    background-color: #EFEAF4;
+}
+
+.container1-main {
+    padding: 0 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 115vh;
+    width: 60vw;
+    margin: auto;
+    background-color: #fff;
+}
+
+.container1-main h3{
+    font: 400 1.2rem "roboto";
+    margin-top: 1vmax;
+}
+
+.container1-main h2{
+    margin-top: 1vmax;
+    margin-bottom: 1vmax;
+    font: 300 1.5rem "roboto";
+}
+
+.container1-main h1{
+    margin-top: 2vmax;
+    font: 400 1.5rem "roboto";
+}
+
+.container1-main p a{
+    text-decoration: none;
+}
+
+.container1-main p a:hover{
+    text-decoration: underline;
+}
+
+.container1-main p{
+    text-align: center;
+    font: 300 1.1rem "roboto";
+    margin-top: 1vmax;
+}
+
+.container1-main .location img {
+    /* background-color: blue; */
+    margin-right: .3vmax;
+}
+
+.container1-main .location span {
+    font: 400 1rem "gilroy";
+}
+
+.container1-main .location {
+    color: rgb(54, 100, 240);
+    display: flex;
+    align-items: center;
+}
+
+.container1-main .calendar {
+    margin-right: 1vmax;
+}
+
+.container1-main-bottom{
+    padding-top: 7vh;
+    height: 60vh;
+    width: 60vw;
+    margin: auto;
+    /* background-color:; */
+}
+
+.registration p{
+    
+    margin-bottom: .5vmax;
+    font: 300 1.3rem "roboto";
+
+}
+
+.container1-main-bottom h5{
+    /* margin-top: 5vh; */
+    width: 60w;
+    padding-top: 1.5vmax;
+    height: 8vh;
+    font: 500 1rem "roboto";
+    text-align: center;
+    background-color: #fff;
+}
+
+.join{
+    /* display: flex; */
+    margin-top: 5vh;
+}
+.join h6{
+    margin-bottom: .5vmax;
+    font: 200 1.3rem "roboto";
+}
+
+
+.join input{
+    outline: none;
+    margin-top: .5vmax;
+    margin-right: 2vmax;
+    height: 35px;
+    border: 1 solid rgb(169, 167, 167);
+    width: 350px;
+    border-radius: 5px;
+}
+
+.box h4{
+    font: 500 1rem "roboto";
+}
+.join button{
+    margin-top: 1.5vmax;
+    height: 35px;
+    width: 120px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(169, 167, 167);
+    
+  
+}
+
+.join form{
+    padding-left: 1vmax;
+    padding-top: 1vmax;
+    display: flex;
+    /* align-items: center; */
+    height: 12vh;
+    width: 60vw;
+    background-color: #fff;
+    /* margin-top: 5vh; */
+}
+
+.footer{
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20vh;
+}
+.footer p{
+    opacity: 0.5;
+    font: 500 .7rem "roboto";
+}
+
+
+.footer p:hover{
+    opacity: 1;
+    font: 500 .7rem "roboto";
+}
+
+
+/* -----------------------------------------------CREATE.CSS-------------------------------------------------- */
+
+
+.containering{
+    height: 150vh;
+    width: 100vw;
+    background-color: #78A0D9;
+  }
+  
+  .ticket{
+    padding-top: 7vh;
+    background-color: #78A0D9;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  
+  }
+  
+  .ticket .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 75vh;
+    width: 27vw;
+    background-color: #fff;
+  }
+
+  .ticket .card h1{
+    margin-bottom: 2vmax;
+    font: 700 1.8rem "roboto";
+  }
+
+  .ticket .card p{
+   margin-bottom: 2vmax;
+    font: 400 1.4rem "roboto";
+    font-style: italic;
+  }
+
+  .ticket .card input{
+    height: 45px;
+    width: 280px;
+    padding: 0 10px;
+    font: 400 1.2rem "roboto";
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid brown;
+    margin-bottom: 2.5vmax;
+  }
+
+  .ticket .card .mango{
+    height: 40px;
+    width: 230px;
+    margin-bottom: 2.5vmax;
+    letter-spacing: 1px;
+    border: none;
+    color: #fff;
+    background-color: black;
+    font: 500 1rem "gilroy";
+    border-radius: 20px;
+  }
+
+  
+  .ticket .card .orange{
+    height: 45px;
+    width: 230px;
+    margin-bottom: 2vmax;
+    letter-spacing: 1px;
+    border: 1px solid brown;
+    color: rgb(161, 51, 51);
+    /* background-color: black; */
+    font: 700 1.2rem "gilroy";
+    /* border-radius: 20px; */
+  }
+
+  .ticket .card h3{
+    text-decoration: underline;
+    margin-top: 1vmax;
+    font: 400 1.3rem "roboto";
+  }

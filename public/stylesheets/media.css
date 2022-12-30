@@ -1,0 +1,820 @@
+@media(max-width: 340px) {
+     
+body {
+    overflow-x: hidden;
+  }
+  
+#main{
+    overflow-x: hidden;
+  }
+   
+   nav ul a {
+        display: none;
+    }
+
+    nav ul button {
+        display: none;
+    }
+
+    .cross {
+    
+        margin-left: 80%;
+        margin-top: 3%;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 55px;
+        width: 55px;
+        border-radius: 50%;
+        background-color: #000;
+        display: initial !important;
+        background-color: black;
+    }
+
+    .menu .line {
+        margin-top: 1vmax;
+        margin-left: 1vmax;
+        /* margin-bottom: .6vmax; */
+    }
+
+    .overlay {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        display: initial !important;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    #page1 {
+        background-image: none;
+        /* overflow-x: hidden !important; */
+        height: 100vh;
+        width: 100vw;
+        background-color: #78A0D9;
+    }
+
+    .page1-images {
+        height: 40vh;
+        width: 100vw;
+        /* background-color: brown; */
+        background-image: url(https://2022.demuxed.com/assets/images/hero-mobile.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #page1 nav {
+        padding: 20px;
+        /* justify-content: space-around; */
+    }
+
+    .menu {
+        display: initial;
+        height: 40px;
+        width: 40px;
+    }
+
+    nav img {
+        width: 130px;
+    }
+
+
+    .page1-main {
+        height: 40vh;
+        padding-left: 0;
+        width: 90vw;
+        margin: auto;
+        margin-top: 0vh;
+    }
+
+    .page1-main h1 {
+        font: 900 2rem "roboto";
+        width: 90vw;
+        margin: auto;
+        text-align: center;
+    }
+
+    .page1-main p {
+        margin: auto;
+        width: 85%;
+        margin-top: 1vmax;
+        text-align: center;
+        font: 500 1.3rem "gilroy";
+    }
+
+    .king button {
+        margin-left: 5vw;
+        height: 50px;
+        width: 270px;
+        font: 900 1.3rem "mukta";
+    }
+
+
+    #page2 {
+        overflow-x: hidden;
+        /* background-color: red; */
+        height: 190vh;
+
+    }
+
+    .page2-main {
+        padding-top: 0;
+        /* background-color: red; */
+        height: 190vh;
+        flex-direction: column-reverse;
+
+    }
+
+    .page2-left {
+        /* margin-top: 30vh; */
+        /* background-color: aqua; */
+        margin-left: 0;
+        width: 90vw;
+        height: 50vh;
+        margin-bottom: 5vh;
+    }
+
+    .page2-right {
+        height: 132vh;
+        padding-left: 0;
+        width: 90vw;
+    }
+
+    .page2-right h1 {
+        /* margin-top: 5vmax; */
+        width: 90vw;
+        text-align: center;
+        font: 900 2rem "roboto";
+    }
+
+    .page2-right .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page2-right .box h2 {
+        width: 90vw;
+        text-align: center;
+        margin-left: 0;
+        font: 900 1.5rem "roboto";
+    }
+
+    .page2-right p {
+        font: 100 1.1rem "gilroy";
+    }
+
+    #page3 {
+        height: 75vh;
+    }
+
+
+    #page4 {
+        height: ;
+
+    }
+
+
+    .page4-main {
+        /* background-color: red; */
+        width: 90vw;
+    }
+
+    .page4-main h1 {
+        margin-bottom: 1vmax;
+        font: 900 2.2rem "roboto";
+    }
+
+    .page4-main h3 {
+        margin-bottom: 1vmax;
+    }
+
+    .page4-main p {
+        width: 90vw;
+        /* text-align: center; */
+        font: 300 1.3rem "roboto";
+    }
+
+    #page5 {
+        height: 2220vh;
+        /* background-color: blue; */
+    }
+
+    .page5-child {
+        height: 39vh;
+        /* background-color: blue; */
+    }
+
+    .page5-child-image {
+        margin-top: 4vmax;
+        height: 100px;
+        width: 200px;
+    }
+
+    .page5-child h1 {
+        font: 900 3rem "mukta";
+    }
+
+    .page5-main {
+        width: 100vw;
+        /* background-color: red; */
+        height: 2180vh;
+    }
+
+    .page5-main-box {
+        flex-direction: column;
+        height: 230vh;
+        width: 90vw;
+        margin-left: 2vw;
+        margin-right: 5vw;
+    }
+
+    .page5-box-one {
+        margin-left: 2vw;
+        margin-right: 5vw;
+        height: 55vh;
+        width: 90vw;
+        margin-bottom: 2vmax;
+    }
+
+    .lucifer {
+        height: 110vh;
+    }
+
+
+    #page6 {
+        /* background-color: red; */
+        height: 1000vh;
+    }
+
+
+
+    .page6-child {
+        /* background-color: blue; */
+        width: 90vw;
+        margin: auto;
+
+    }
+
+    .page6-child-image {
+        height: 100px;
+        width: 250px;
+    }
+
+    .page6-child h1 {
+        margin-bottom: 3vmax;
+        font: 900 2.5rem "roboto";
+    }
+
+    .page6-button button.botn {
+        margin-right: 0vmax;
+        margin-left: 3vmax;
+        margin-bottom: 2vmax;
+    }
+
+    .page6-button button {
+        height: 70px;
+        width: 280px;
+        margin-left: 3vmax;
+    }
+
+
+    .page6-main {
+        height: 600vh;
+        width: 90vw;
+    }
+
+    .page6-main-box {
+        height: 75vh;
+        /* margin-bottom: 2vmax; */
+        width: 90vw;
+        flex-direction: column;
+    }
+
+
+    .page6-main-box-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        background-color: #78A0D9;
+        border-radius: 0;
+        border-right: 0;
+        width: 85vw;
+        margin: auto;
+        height: 35vh;
+    }
+
+    .page6-main-box-left .ubntu {
+        width: 50px;
+    }
+
+    /* .page6-left-button img {
+        height: 30px;
+        /* width: 0; */
+
+
+
+    .page6-main-box-left h3 {
+        font: 900 1.1rem "roboto";
+    }
+
+    .page6-left-button {
+        padding-left: 1vmax;
+        height: 60px;
+        width: 200px;
+    }
+
+    .page6-left-button h1 {
+        margin-left: 1vmax;
+        font: 400 1.1rem "roboto";
+    }
+
+
+    .page6-main-box-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        background-color: #78A0D9;
+        border-radius: 0;
+        border-right: 0;
+        width: 85vw;
+        margin: auto;
+        height: 35vh;
+    }
+
+    .page6-main-box-right h3 {
+        font: 900 1.1rem "roboto";
+    }
+
+    .page6-main-box-right .page6-left-button {
+        padding-left: 1vmax;
+        height: 60px;
+        width: 200px;
+    }
+
+    .page6-main-box-right h3 {
+        margin-top: .5vmax;
+        margin-bottom: .5vmax;
+        font: 900 1.2rem "roboto";
+    }
+
+    .page6-right-image {
+        font: 500 1.1rem "roboto";
+
+    }
+
+    .page6-right-image img {
+        height: 60px;
+    }
+
+    .page6-main-box1 {
+        height: 75vh;
+        /* margin-bottom: 2vmax; */
+        width: 90vw;
+        flex-direction: column;
+    }
+
+    .page6-main-box1 .page6-left-button {
+        height: 60px;
+        width: 200px;
+    }
+
+    .page6-right-image h3 span {
+        font: 300 1.1rem "roboto";
+    }
+
+    .page6-main-box2 {
+        height: 75vh;
+        /* margin-bottom: 2vmax; */
+        width: 90vw;
+        flex-direction: column;
+    }
+
+    .page6-main-box2 .page6-main-box-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        border-left: 0px solid #DDE7F4;
+    }
+
+    .page6-main-box2 .page6-left-button {
+        height: 60px;
+        width: 200px;
+    }
+
+    .page6-main-box3 {
+        height: 80vh;
+        /* margin-bottom: 2vmax; */
+        width: 90vw;
+        flex-direction: column;
+    }
+
+    .page6-main-box3 .page6-main-box-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        height: 35vh;
+    }
+
+
+    .page6-main-box3 .page6-main-box-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        height: 50vh;
+    }
+
+    .page6-main-box4 {
+        flex-direction: column;
+        height: 100vh;
+        width: 90vw;
+    }
+
+    .page6-main-box4 .page6-main-box-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        border-left: 0px solid #DDE7F4;
+    }
+
+    .page6-right-image .livo {
+        height: 70px;
+        width: 150px;
+    }
+
+
+    .page6-main-box5 {
+        height: 70vh;
+        flex-direction: column;
+    }
+
+
+    .page6-main-box5 .page6-main-box-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        border-left: 0px solid #DDE7F4;
+    }
+
+    .page6-main-box5 .page6-main-box-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        border-left: 0px solid #DDE7F4;
+    }
+
+    .page6-main-box6 {
+        height: 75vh;
+        width: 90vw;
+        flex-direction: column;
+    }
+
+
+    .page6-main-box6 .page6-main-box-left {
+        border-radius: 0;
+    }
+
+    .page6-main-box5 .page6-main-box-right .righter {
+        border-left: 0px solid #DDE7F4;
+    }
+
+    .page6-main-box6 .page6-main-box-left {
+        border-left: 0px solid #DDE7F4;
+    }
+
+
+
+    #page7 {
+        overflow-x: hidden;
+        height: 95vh;
+    }
+
+    .page7-child {
+        height: 30vh;
+        /* background-color: blue; */
+    }
+
+
+    .page7-child-image {
+        width: 400px;
+        height: 200px;
+    }
+
+
+    #page8 {
+        overflow-x: hidden;
+        /* background-color: red; */
+        height: 170vh;
+    }
+
+
+    .page8-left h1 {
+        font: 900 3rem "roboto";
+    }
+
+
+    .page8-left p {
+        font: 300 1.3rem "roboto";
+    }
+
+    .page8-main {
+        /* background-color: crimson; */
+        height: 180vh;
+        flex-direction: column;
+    }
+
+    .page8-left {
+        height: 130vh;
+        /* background-color: blue; */
+        width: 90vw;
+    }
+
+    .page8-right {
+        /* background-color: aqua; */
+        height: 50vh;
+        width: 90vw;
+    }
+
+    .page8-right-image {
+        height: 40vh;
+        width: 90vw;
+    }
+
+    #page9 {}
+
+
+    .page9-child {
+        /* background-color: red; */
+        height: 35vh;
+        justify-content: center;
+    }
+
+
+    .page9-child-image {
+        height: 30vh;
+        width: 60vw;
+    }
+
+
+    #page10 {
+        /* background-color: red; */
+        height: 340vh;
+    }
+
+    .page10-main {
+        height: 340vh;
+    }
+
+
+    .page10-child {
+        height: 70vh;
+        /* background-color: red; */
+
+    }
+
+    .page10-child h1 {
+        margin-bottom: 5vh;
+        font: 900 2.5rem "roboto";
+    }
+
+    .page10-child button {
+        margin-bottom: 2vmax;
+        height: 50px;
+        width: 200px;
+        font: 700 1rem "roboto";
+    }
+
+    .page10-child-image {
+        width: 90vw;
+    }
+
+
+    .page10-child1 {
+        margin-top: 5vh;
+        height: 57vh;
+    }
+
+    .page10-child1 button {
+        height: 45px;
+        width: 200px;
+        font: 900 1rem "roboto";
+    }
+
+    .page10-child-main {
+        flex-wrap: wrap;
+    }
+
+    .page10-child-image1 {
+        margin-top: 2vmax;
+        height: 20vh;
+        width: 40vw;
+    }
+
+    .page10-child2 {
+        height: 110vh;
+    }
+
+    .page10-child2-main {
+        flex-wrap: wrap;
+    }
+
+    .page10-child2 button {
+        height: 45px;
+        width: 200px;
+        font: 900 1rem "roboto";
+    }
+
+    .page10-chid2-left {
+        padding: 0;
+        height: 50vh;
+        /* background-color: blue; */
+        width: 100vw;
+    }
+
+    .page10-chid2-left-image {
+        height: 20vh;
+        width: 40vw;
+    }
+
+    .page10-chid2-left-image1 {
+        height: 20vh;
+        width: 40vw;
+        margin-left: 20vw;
+    }
+
+    .page10-chid2-right {
+        padding: 0;
+        height: 50vh;
+        /* background-color: blue; */
+        width: 100vw;
+    }
+
+
+    .page10-child3 {
+        /* flex-wrap: wrap;
+        flex-direction: column; */
+        height: 100vh;
+    }
+
+    .page10-child3 button {
+        height: 45px;
+        width: 200px;
+        font: 900 1rem "roboto";
+    }
+
+    .page10-child3-main {
+        height: 100vh;
+        flex-wrap: wrap;
+    }
+
+    .page10-child3-main-image {
+        height: 20vh;
+        margin-top: 2vmax;
+        width: 40vw;
+    }
+
+    .imaging {
+        margin-left: 20vw;
+    }
+
+    .imaging1 {
+        margin-left: 20vw;
+    }
+
+
+
+    #page11 {
+        overflow-y: hidden;
+        overflow-x: hidden;
+        /* background-color: red; */
+        /* margin-top: 5vh; */
+        height: 160vh;
+    }
+
+
+    .page11-footer-image {
+        background-image: url(https://2022.demuxed.com/assets/images/footer-mobile.jpg);
+        background-position: center;
+        height: 100vh;
+    }
+
+    .page11-footer {
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .page11-contact {
+        margin-top: 4vmax;
+        width: 90vw;
+    }
+
+    .page11-image {
+        width: 90vw;
+    }
+
+    .page11-staff {
+        margin-top: 3vmax;
+        width: 90vw;
+    }
+
+    .page11-logo {
+        margin-top: 3vmax;
+        width: 90vw;
+    }
+
+
+    /* ------------------------------------buy------------------------------- */
+
+    .container {
+        height: 70vh;
+    }
+
+    .container-image {
+        height: 65vh;
+        width: 100vw;
+        margin: auto;
+    }
+
+    .container-1 {
+        height: 230vh;
+    }
+    .container1-main {
+        height: 160vh;
+        width: 90vw;
+        align-items: flex-start;
+    }
+
+    .container1-main .dillo{
+        /* height: 130vh; */
+        width: 250px;
+    }
+    
+    .container1-main h3{
+    font: 400 1.1rem "roboto";
+    }
+
+    .container1-main h1{
+    font: 400 1.2rem "roboto";
+    }
+
+    .container1-main p{
+    font: 300 1rem "roboto";
+    text-align: left;
+    }
+
+    .container1-main-bottom{
+        width: 90vw;
+    }
+
+    .join h6{
+    font: 200 1.1rem "roboto";
+
+    }
+
+    .join input{
+        width: 250px;
+        margin-bottom: 1vmax;
+    }
+    .join form{
+        height: 30vh;
+        width: 90vw;
+        flex-direction: column;
+    }
+
+
+    .footer{
+        margin-top: 5vh;
+        width: 90vw;
+    }
+
+
+    /* ----------------------create------------ */
+
+    .ticket .card{
+        width: 90vw;
+    }
+
+    .tickets{
+        padding: 20px;
+    }
+
+
+}
+
+@media(max-width: 500px) {
+    
+}
